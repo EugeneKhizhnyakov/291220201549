@@ -1,0 +1,52 @@
+.item {
+    margin-top: 12.5px;
+  }
+  
+  .head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .date,
+  .name {
+    line-height: 20px;
+    font-weight: bold;
+  }
+  
+  .date {
+    margin-left: 10px;
+    font-size: 0.65rem;
+    color: #808080;
+  }
+  
+  .text {
+    position: relative;
+    background-color: #f2fbff;
+    border: 1px solid #cfcfcf;
+    padding: 16px 20px 11px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.05);
+  }
+  
+  .text:before,
+  .text:after {
+    content: "";
+    position: absolute;
+  }
+  
+  .text:before {
+    left: 19px;
+    top: -11px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #cfcfcf;
+    border-left: 10px solid #cfcfcf;
+    z-index: -1;
+  }
+  .text:after {
+    left: 20px;
+    top: -9px;
+    border: 8px solid transparent;
+    border-bottom: 8px solid #f2fbff;
+    border-left: 8px solid #f2fbff;
+  }
+  

@@ -1,0 +1,48 @@
+.box {
+    padding: 20px;
+  }
+  .h{
+    font-weight: bold;
+  }
+  .title a {
+    margin: 5px 0 0 0;
+    font-size: 0.85rem;
+    display: block;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (min-width: 400px) {
+    .title,
+    .data {
+      display: flex;
+    }
+  
+    .title a {
+      margin: 0 0 0 15px;
+    }
+  }
+  
+  .data a {
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .data a:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  .icon {
+    display: inline-block;
+    background-image: url("./img.png");
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+  }
+  

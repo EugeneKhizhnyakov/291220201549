@@ -1,0 +1,36 @@
+.box {
+  padding: 20px 20px 0;
+  display: flex;
+}
+
+.image {
+  margin-right: 10px;
+}
+
+.image img {
+  border-radius: 50%;
+}
+
+.content {
+  width: 100%;
+}
+
+.title {
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.description {
+  font-size: 0.75rem;
+  color: #808080;
+}
+
+.text{
+  position: relative;
+  z-index: -1;
+  margin: 5px 0 5px -75px;
+  background-color: #fffbc8;
+  border: 1px solid #cecabf;
+  border-radius: 5px;
+  padding: 7.5px 7.5px 7.5px 75px;
+}
